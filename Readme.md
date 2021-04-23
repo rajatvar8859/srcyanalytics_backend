@@ -19,6 +19,12 @@ It works on Nodejs framework 'ExpressJS'
 
 ## Commands
 
+### For connecting both the services like nodejs and mongoDb into same network you have to run the follwing command
+
+```sh
+sudo docker network create stock_app_networ
+```
+
 ### Docker Command
 
 ```sh
